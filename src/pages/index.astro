@@ -11,25 +11,25 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header title={SITE_TITLE} />
-		<main class="px-[4vw] lg:px-[7.5rem] mt-[4vw] lg:mt-[8rem]">
+		<Header/>
+		<main class="px-[4vw] lg:px-[7.5rem] mt-[8vw] lg:mt-[8rem]">
 		<section class="flex flex-col md:flex-row gap-[8.5vw]">
-			<div class="grow flex flex-col gap-2 mt-10">
+			<div class="grow flex flex-col gap-2 md:mt-12">
 				<h1 class="text-xl">Hi, I’m Roy Sandoval, founder of <span class="underline">HyperGood</span></h1>
-				<h2 class="text-4xl">We’re building dApps to onboard more people to web3 at HyperGood</h2>
+				<h2 class="text-4xl max-w-[15ch]">Building dApps to onboard more people to web3</h2>
 			</div>
 			<div class="flex flex-col lg:gap-12 gap-[3vw]">
 				<div class="flex w-full lg:gap-12 gap-[3vw]">
-					<div class="bg-brand-gray-light h-[50vw] lg:h-[15.5vw] aspect-[7/8] rounded-xl">
-						img
+					<div class="bg-brand-gray-light h-[50vw] md:h-[15.5vw] aspect-[7/8] rounded-xl overflow-hidden">
+						<img src="/woosh.webp"/>
 					</div>				
-					<div class="bg-brand-gray-light h-[50vw] lg:h-[15.5vw] aspect-[7/8] rounded-xl">
-						img
+					<div class="bg-brand-gray-light h-[50vw] md:h-[15.5vw] aspect-[7/8] rounded-xl overflow-hidden">
+						<img src="/tahoe-summer.webp"/>
 					</div>		
 				</div>
 				<div>
-				<div class="bg-brand-gray-light h-[15.5vw] rounded-xl w-full">
-					img
+				<div class="bg-brand-gray-light h-[15.5vw] w-[30vw] rounded-xl overflow-hidden">
+					<img src="/ethmexico.webp"/>
 				</div>
 				</div>
 			</div>
@@ -37,10 +37,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<section class="bg-white w-full p-[3vw] md:pt-8 md:pb-10 md:px-12 flex flex-col md:flex-row justify-between md:items-center rounded-xl mt-20">
 			<div>
 				<h3 class="text-lg mb-2">Currently building</h3>
-				<h3 class="text-4xl">Woosh</h3>
+				<h3 class="text-3xl">Woosh</h3>
 			</div>
-			<div>
-				img
+			<div class="w-[30vw]">
+				<img src="/woosh-website.webp" >
 			</div>
 		</section>
 		<section class="mt-20">
